@@ -1,0 +1,10 @@
+EStado: los valores que tiene una variable en un momento
+
+Identidad del objeto: espacio en memoria
+Puedo tener dos variables refiriendo al mismo espacio de memoria, por lo tanto tienen la misma identidad.
+
+Podemos tener otro objeto con el mismo estado, pero diferente identidad.
+
+Evitar reutilizar mismo objeto con el set. podemos utilizar la misma variable para crear otro objeto con diferentes datos, ya que así evitamos el problema que nos podría dar al cambiar los datos con un set.
+
+

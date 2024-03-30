@@ -1,0 +1,35 @@
+1. Debemos de crear un archivo para cada enumerador y para cada clase
+
+2. Debemos de saber que en Java usamos lowerCamelCase y para Ruby snake_case.
+
+3. En los archivos de Ruby tenemos que poner primero, siempre en la primera linea: #encoding:utf-8
+
+4. En Ruby no existen los tipos enumerados como tales y utilizaremos módulos que contengan y encapsulen los posibles valores de cada enumerado para simular una funcionalidad parecida a la que
+se obtiene en Java.
+
+5. Clase Weapon:
+	"Esta clase representa las armas que utiliza el jugador en los ataques durante los combates."
+	
+	- atributos `power` (float) y `uses` (int)
+	-constructor con los atributos inicializados ordenados como se ha comentado anteriormente.
+	-método attack:
+		.Añade un método de instancia público sin parámetros llamado attack que devuelva un número en coma flotante representando la intensidad del ataque del jugador. Si el arma aún tiene usos
+		  disponibles (uses > 0)
+		  
+	-métodos : 
+		• public String toString() en Java
+		• to_s en Ruby
+		que devuelva un representación en forma del cadena de caracteres del estado interno del objeto. Asídevolverá “W[2.0, 5]” para un arma con una potencia de disparo de 2 unidades y que aún puede 													     ser usada 5 veces.
+		
+6. Clase Shield:
+	"Esta clase representa los escudos que utiliza el jugador cuando se defiende de un ataque de un monstruo."
+	
+	-atributos `protecticon`(float) y `uses`(int)
+	-constructor con todo inicializado
+	-método protect:
+		.que devuelva un número en coma flotante representando la intensidad de la defensa del jugador. Si el escudo aún tiene usos disponibles (uses > 0), se decrementa ese valor y se devuelve el valor           de protection. En otro caso el método devuelve 0.
+		
+	-métodos:
+		• public String toString() en Java
+		• to_s en Ruby
+		que devuelva un representación en forma del cadena de caracteres del estado interno del objeto. Así	devolverá “S[3.0, 4]” para un escudo que proporciona un nivel de protección de 3 unidades 				   y que aún puede ser usado 4 veces.

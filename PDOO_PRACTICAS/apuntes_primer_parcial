@@ -1,0 +1,16 @@
+bucles for:
+
+Java:
+
+for(Accion accion:acciones){
+	if.....
+......
+
+}
+
+Ruby:
+
+for accion in acciones
+	if .....
+	
+end
