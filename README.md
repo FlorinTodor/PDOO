@@ -56,7 +56,8 @@ Se desarrolla la lógica completa del videojuego y las interacciones complejas:
 
 ## 🛠️ Tecnologías y Herramientas
 -   **Lenguajes:** Java, Ruby.
--   **Entorno Java:** NetBeans (Java SE).
+-   **Entorno Java:** NetBeans (Java SE) y Jetbrains.
+-   **Entorno Ruby:** RubyMine
 -   **Control de versiones:** Git / GitHub.
 -   **Buenas prácticas aplicadas:**
     -   Nomenclatura adaptada a cada lenguaje (`lowerCamelCase` en Java, `snake_case` en Ruby).
